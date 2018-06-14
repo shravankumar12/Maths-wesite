@@ -1,0 +1,298 @@
+
+#container{
+	margin: 0 auto;
+	width: 1100px;
+	height: auto;
+}
+h1 a{
+	text-decoration: none;
+	color: #ff66b3;
+	font-size: 64px;
+	float: left;
+}
+#header{
+	padding: 10px 0;
+	height: 15px;
+}
+#searchBox{
+	float: right;
+	width: 500px;
+	height: 70px;
+	padding: 15px 15px 0 15px;
+	background-color:#DB7093;
+	border-radius: 5px; 
+}
+#btn{
+	width: 90px;
+	height: 35px;
+	float: right;
+	background-color:white;
+	color: black;
+	margin-top: 15px;
+	margin-right:70px; 
+	border-radius: 10px;
+	font-weight: bolder;
+}
+#btn:hover{
+	cursor: pointer;
+}
+#input{
+	float:left;
+	width: 280px;
+	height: 20px;
+	border-radius: 10px;
+	font-size: 18px; 
+	color: DarkCyan;
+	float: left;
+	background:white url(images/search.png) right center no-repeat;
+}
+.clear{
+	clear: both;
+}
+#menu{
+	margin: 10px 0;
+	width: 1093px;
+	height: 80px;
+	border:1px solid green;
+	background-color: black;
+	padding: 3px;
+}
+ul{
+	list-style: none;
+}
+#menu ul li{
+	float: left;
+	padding: 0 10px;
+	border-right: 2px solid white;
+	margin: 13px 0 0 0;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight:bold;
+	line-height: 20px;
+	font-size: 20px;
+	padding: 0 15px;
+	transition: font-size 0.3s ease;
+}
+#menu ul li a:hover,#menu ul li a.active{
+	font-size:26px;
+	color: seagreen;
+}
+#introduction{
+	border: 1px solid green;
+	width: 1100px;
+	height: 350px;
+	background-color: #FAEBD7;
+}
+#intro-h3 h3{
+	font-size: 36px;
+	padding: 5px;
+	color: #483D8B;
+}
+div p{
+	font-size: 18px;
+	margin: 8px;
+	padding: 5px;
+}
+.sidebar{
+	width: 450px;
+	height: 780px;
+	border: 1px solid #8B0000;
+	margin: 10px 20px;
+	border-radius: 20px;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: #00CED1;
+	font-size: 18px;
+	padding: 20px 10px;
+	line-height: 37px;
+
+}
+#right-bar ul li{
+	padding: 15px;
+	margin-left: 10px;
+	background: white url(images/Right.png) left center no-repeat;
+}
+#left-bar ul li{
+	background: white url(images/images.png) left center no-repeat;
+}
+#left-bar ul li a{
+	margin-left: 15px;
+}
+.sidebar ul li a:hover{
+	font-size: 22px;
+	transition: font-size 0.3s ease;
+}
+.sidebar h3{
+	padding: 3px;
+	margin-left: 10px;
+	color: orange;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+#left-bar{
+	float: left;
+}
+#right-bar{
+	float: right;
+}
+.clear{
+	clear: both;
+	height: 50px;
+	
+}
+#footer{
+	background-color: #001000;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+footer small{
+ color: red;
+}
+/*-onlinetutorial page*/
+.box{
+	width: 300px;
+	height: 500px;
+	margin: 10px;
+	padding: 10px;
+	border: 5px solid #696969;
+	float:left;
+	margin-bottom: 15px;
+}
+.box h2{
+	text-align: center;
+	color:seagreen;
+}
+.box:hover{
+	width: 350px;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	opacity: 0.8;
+	border: 5px solid #696969;
+	box-shadow: 12px 12px;
+	float:left;
+}
+#d1:hover{
+	font-size: 18px;
+	height: 500px;
+}
+
+#tutorial{
+	margin-bottom: 15px;
+}
+
+#form{
+	margin: center;
+	padding: 30px;
+
+}
+input[type='text'],input[type='email'],
+input[type='password'],input[type='number'],
+input[type='gender']{
+	width: 500px;
+	height: 30px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: lightgreen;
+	color: black;
+}
+#radio{
+	width: 500px;
+	height: 30px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: lightgreen;
+	color: black;
+}
+.contact textarea{
+	width: 500px;
+	height: 200px;
+	margin: 10px;
+	padding:15px;
+	font-size: 20px;
+	background-color: lightgreen;
+	color: black;
+}
+#about h1{
+	color: green;
+}
+.contact{
+	width:600px;
+	height: auto;
+	margin: 0 auto;
+}
+.contact h2{
+	color: green;
+	text-align: center;
+	font-size: 36px;
+	font-family: sans-serif;
+}
+#login{
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+}
+.login-btn{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	padding:40 px;
+	background-color: darkcyan;
+	color: white;
+	margin-left: 200px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.login-btn:hover{
+	font-size: 20px;
+	cursor: pointer;
+}
+#login-signup{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	padding:40 px;
+	background-color: darkcyan;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 150px;
+}
+#login-signup a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+#login-signup a:hover{
+	cursor: pointer;
+	font-size: 20px;
+}
+#log-btn{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	padding:40 px;
+	background-color: darkcyan;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 130px;
+
+}
+#log-btn:hover{
+	cursor: pointer;
+	font-size: 20px;
+}
